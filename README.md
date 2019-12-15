@@ -1,24 +1,19 @@
 # logdna_test
 
-## Project setup
-```
-yarn install
-```
+Take home test for Log-dna
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Install instructions
+- git clone project
+- npm install
+- run npm run serve
 
-### Compiles and minifies for production
-```
-yarn build
-```
+To test the messaging function:
+- in parallel with the above, run `json-server db.json```
 
-### Lints and fixes files
-```
-yarn lint
-```
+Messages will be posted to the server, you can see your messages at http://localhost:3000/messages
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Demo site is available at:
+https://lucid-snyder-1be004.netlify.com/
+
+Note that the messaging capability will n ot work from this iste as I use a local server for JSON. 
